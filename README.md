@@ -7,6 +7,7 @@ Both addresses must be from the list of addresses in the BridgeFDB.txt file.
 Each random entry also has the arrival port number. The arrival port number is 1, 2, 3 or 4. 
 If the arrival port number matches the port number in the BridgeFDB.txt file, then the host has not moved from its original place. 
 If the arrival port number is different from the port number in the BridgeFDB.txt file, then this host has moved to a different port.
+Save the output from this program in a text file called RandomFrame.txt
 
 BridgeProcessingFDB.java:
 A program that reads the two text files, namely, BridgeFDB.txt and RandomFrames.txt, and for each
